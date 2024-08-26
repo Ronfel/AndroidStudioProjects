@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sorteio</string>
+    <string name="nova_frase">Nova Frase</string>
+    <string name="precione_o_bot_o_para_gerar_uma_frase">Precione o botão para gerar uma frase!</string>
+    <string name="todo">TODO</string>
+</resources>

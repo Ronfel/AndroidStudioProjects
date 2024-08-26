@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_empresa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempreaconsultoria.estudorodrigo.com.atmempresaconsultoria.EmpresaActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/detalhe_empresa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:text="@string/empresa_detalhes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:id="@+id/textView"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginTop="24dp"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="390dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="@android:color/black"
+                android:background="#b0b0b0"
+                android:padding="10dp"
+                tools:ignore="HardcodedText"
+                android:text=" Em um mercado competitivo, a integração entre todos os departamentos da empresa através de informações confiáveis é uma necessidade.  Muitas vezes estas informações também são exigidas pelos seus clientes, fornecedores, órgãos fiscais e colaboradores. Nem pacotes fechados, nem projetos inviáveis economicamente. Sua empresa precisa de flexibilidade e comprometimento com resultados.   Nós fazemos isso desde 1994 - quando iniciamos na cidade de Sorocaba – SP, com um escritório regional que comercializava softwares de folha de pagamento numa sólida parceria de prestação de serviços com a empresa ADP Brasil, multinacional americana de folha de pagamento.  Oferecendo soluções ADP e com as constantes mudanças no mercado tecnológico de gestão empresarial, percebeu-se a necessidade da criação de uma solução de gestão de negócios integrado aos Sistemas ADP Brasil.  A partir de 1995, com a criação do Sistema SATIS EMPRESARIAL – solução de ERP completa, sua empresa pode contar com uma excelente ferramenta de trabalho e com uma equipe de profissionais focada nos resultados desejados.  O compromisso da Agiw com as entidades e pessoas envolvidas no seu negócio, expressados pelo relacionamento pautado pela ética e pelo respeito tornou a empresa um referencial na região de Sorocaba na produção e implantação de software de gestão de negócios.  Na busca constante pela melhoria de nossos produtos e serviços, estamos trabalhando na nova versão – com uma tecnologia web totalmente moderna e com novas funcionalidades. " />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
